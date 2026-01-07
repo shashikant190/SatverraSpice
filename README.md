@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://github.com/shashikant190/SatverraSpice/main/public/hero-kitchen.png" alt="Satverra Spice Co. Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/blob/main/public/LogoName.png" alt="Satverra Spice Co. Banner" width="100%" />
 </p>
 
 <br />
 
 <p align="center">
-  <img src="https://github.com/shashikant190/SatverraSpice/main/public/LogoName.png" alt="Satverra Spice Co Logo" width="140" />
+  <img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/blob/main/public/hero-kitchen.png" alt="Satverra Spice Co Logo" width="140" />
 </p>
 
 <h1 align="center">🌿 Satverra Spice Co.</h1>
