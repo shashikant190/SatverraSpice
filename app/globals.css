@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm Spice Palette */
+    --background: 40 30% 96%;
+    --foreground: 25 50% 20%;
+
+    --card: 40 35% 94%;
+    --card-foreground: 25 50% 20%;
+
+    --popover: 40 30% 96%;
+    --popover-foreground: 25 50% 20%;
+
+    /* Forest Green - Primary */
+    --primary: 140 40% 32%;
+    --primary-foreground: 40 30% 96%;
+
+    /* Turmeric Gold - Secondary */
+    --secondary: 42 85% 55%;
+    --secondary-foreground: 25 50% 15%;
+
+    /* Paprika Red - Accent */
+    --accent: 12 75% 48%;
+    --accent-foreground: 40 30% 96%;
+
+    /* Cream - Muted */
+    --muted: 40 25% 90%;
+    --muted-foreground: 25 30% 45%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 30% 96%;
+
+    --border: 25 30% 80%;
+    --input: 25 30% 85%;
+    --ring: 140 40% 32%;
+
+    --radius: 1rem;
+
+    /* Custom Brand Colors */
+    --turmeric: 42 90% 52%;
+    --chilli: 8 80% 50%;
+    --forest: 140 40% 32%;
+    --mustard: 45 85% 55%;
+    --brick: 15 65% 42%;
+    --cream: 40 35% 94%;
+    --paper: 38 30% 92%;
+
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(42, 90%, 52%) 0%, hsl(15, 65%, 42%) 100%);
+    --gradient-forest: linear-gradient(135deg, hsl(140, 40%, 32%) 0%, hsl(140, 35%, 45%) 100%);
+    --gradient-spice: linear-gradient(180deg, hsl(40, 30%, 96%) 0%, hsl(40, 35%, 90%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(25 50% 20% / 0.1);
+    --shadow-card: 0 8px 30px -8px hsl(25 50% 20% / 0.15);
+    --shadow-crayon: 3px 3px 0 hsl(25 30% 80%);
+
+    /* Sidebar (keeping defaults) */
+    --sidebar-background: 40 30% 96%;
+    --sidebar-foreground: 25 50% 20%;
+    --sidebar-primary: 140 40% 32%;
+    --sidebar-primary-foreground: 40 30% 96%;
+    --sidebar-accent: 42 85% 55%;
+    --sidebar-accent-foreground: 25 50% 15%;
+    --sidebar-border: 25 30% 80%;
+    --sidebar-ring: 140 40% 32%;
+  }
+
+  .dark {
+    --background: 25 40% 12%;
+    --foreground: 40 30% 92%;
+    --card: 25 35% 16%;
+    --card-foreground: 40 30% 92%;
+    --popover: 25 35% 16%;
+    --popover-foreground: 40 30% 92%;
+    --primary: 140 45% 45%;
+    --primary-foreground: 25 40% 10%;
+    --secondary: 42 80% 50%;
+    --secondary-foreground: 25 40% 10%;
+    --accent: 12 70% 55%;
+    --accent-foreground: 40 30% 96%;
+    --muted: 25 30% 22%;
+    --muted-foreground: 40 25% 65%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 40 30% 96%;
+    --border: 25 25% 28%;
+    --input: 25 25% 28%;
+    --ring: 140 45% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    background-blend-mode: soft-light;
+    background-size: 150px;
+  }
+}
+
+@layer utilities {
+  /* Wobbly border effect */
+  .border-wobbly {
+    border-radius: 42% 58% 62% 38% / 45% 55% 45% 55%;
+  }
+
+  .border-wobbly-alt {
+    border-radius: 58% 42% 38% 62% / 55% 45% 55% 45%;
+  }
+
+  /* Paper texture */
+  .paper-texture {
+    background-color: hsl(var(--paper));
+    background-blend-mode: multiply;
+    background-size: 100px;
+  }
+
+  /* Crayon stroke effect */
+  .crayon-stroke {
+    position: relative;
+  }
+
+  .crayon-stroke::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border: 3px solid currentColor;
+    border-radius: 45% 55% 50% 50% / 50% 45% 55% 50%;
+    opacity: 0.3;
+  }
+
+  /* Star sticker effect */
+  .star-sticker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, hsl(45, 100%, 60%) 0%, hsl(35, 100%, 50%) 100%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    padding: 0.5rem;
+    filter: drop-shadow(2px 2px 0 hsl(25 50% 20% / 0.2));
+  }
+
+  /* Floating animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-2deg); }
+    50% { transform: translateY(-8px) rotate(2deg); }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+
+  .animate-wiggle {
+    animation: wiggle 0.5s ease-in-out;
+  }
+
+  .hover\:animate-wiggle:hover {
+    animation: wiggle 0.3s ease-in-out;
+  }
+
+  /* Gradient backgrounds */
+  .bg-gradient-warm {
+    background: var(--gradient-warm);
+  }
+
+  .bg-gradient-forest {
+    background: var(--gradient-forest);
+  }
+
+  .bg-gradient-spice {
+    background: var(--gradient-spice);
+  }
+}
+
+
