@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/blob/main/public/LogoName.png" alt="Satverra Spice Co. Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/main/public/LogoName.png" />
+
 </p>
 
 <br />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/blob/main/public/hero-kitchen.png" alt="Satverra Spice Co Logo" width="140" />
+<img src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/main/public/hero-kitchen.png" />
+
 </p>
 
 <h1 align="center">🌿 Satverra Spice Co.</h1>
@@ -160,7 +162,7 @@ Built to feel **premium yet honest**, just like the product.
 
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/your-username/satverra-spice/main/public/admin-dashboard.png" 
+    src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/main/public/admin-dashboard.png" 
     alt="Admin Dashboard Screenshot"
     width="100%"
   />
@@ -169,6 +171,7 @@ Built to feel **premium yet honest**, just like the product.
 <p align="center">
   <strong>Designed for Real Business, Not Just Demos</strong>
 </p>
+
 
 ---
 
