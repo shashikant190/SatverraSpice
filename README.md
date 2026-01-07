@@ -162,7 +162,7 @@ Built to feel **premium yet honest**, just like the product.
 
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/main/public/admin-dashboard.png" 
+    src="https://raw.githubusercontent.com/shashikant190/SatverraSpice/main/public/AdminDashboardSatverra.png" 
     alt="Admin Dashboard Screenshot"
     width="100%"
   />
