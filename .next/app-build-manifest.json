@@ -1,9 +1,14 @@
 {
   "pages": {
-    "/page": [
+    "/admin-dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/admin-dashboard/page.js"
+    ],
+    "/admin-dashboard/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/admin-dashboard/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,15 +26,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/_not-found/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
-    ],
-    "/product/[productId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/product/[productId]/page.js"
+      "static/chunks/app/page.js"
     ]
   }
 }

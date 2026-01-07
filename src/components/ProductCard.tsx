@@ -11,7 +11,7 @@ interface ProductCardProps {
 const productData = {
   turmeric: {
     name: "Pure Turmeric Powder",
-    description: "Golden goodness from Kerala's finest farms",
+    description: "Golden goodness from Mirzapur's finest farms",
     price: "₹149",
     weight: "100g",
     image: "/turmeric-jar.png",

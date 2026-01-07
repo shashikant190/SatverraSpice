@@ -1,4 +1,4 @@
-// File: /Users/shashikant/Desktop/Spice/app/layout.tsx
+// File: /Users/shashikant/Desktop/SatverraSpice-clean/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

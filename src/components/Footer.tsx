@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageCircle, MapPin, Heart } from "lucide-react";
 
 const Footer = () => {
@@ -8,9 +9,18 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="font-display text-2xl font-bold mb-3">
-              🌿 Satverra Spice Co.
-            </h3>
+            <div className="flex items-center gap-2 mb-3">
+              <Image
+                src="/LogoName.png"
+                alt="Satverra Spice Logo"
+                width={36}
+                height={36}
+                // className="mix-blend-multiply"
+              />
+              <h3 className="font-display text-2xl font-bold">
+                Satverra Spice Co.
+              </h3>
+            </div>
             <p className="text-primary-foreground/80 font-body text-sm leading-relaxed">
               Bringing farm-fresh, 100% pure spices from India’s finest farms to
               your kitchen. No additives, no chemicals — just pure goodness.
@@ -78,9 +88,9 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-0.5" />
                 <span>
-                  Farm Fresh Spices,
+                  Satverra Spice Company,
                   <br />
-                  Kerala, India 682001
+                  Mirzapur, Uttar Pradesh 231211
                 </span>
               </li>
             </ul>

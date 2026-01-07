@@ -1,73 +1,203 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/satverra-spice/main/public/hero-kitchen.png" alt="Satverra Spice Co. Banner" width="100%" />
+</p>
 
-## Project info
+<br />
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/satverra-spice/main/public/logo.png" alt="Satverra Spice Co Logo" width="140" />
+</p>
 
-## How can I edit this code?
+<h1 align="center">🌿 Satverra Spice Co.</h1>
 
-There are several ways of editing your application.
+<p align="center">
+  <strong>Pure Indian Spices — Farm Fresh, Honest & Unadulterated.</strong>
+</p>
 
-**Use Lovable**
+<p align="center">
+  From Indian farms directly to your kitchen.
+</p>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+<br />
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ What This Project Is
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Satverra Spice Co.** is a full-stack **D2C e-commerce platform** for selling **100% pure Indian spices**, designed with:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- A clean, trust-focused storefront  
+- A powerful admin dashboard  
+- Real-time order tracking  
+- Secure authentication  
+- Smooth, user-friendly UX  
 
-Follow these steps:
+Built for **real business use**, not just demos.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌶️ Customer-Facing Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🛍️ Product Experience
+- Dedicated product pages for:
+  - Turmeric Powder  
+  - Chilli Powder  
+- Clear pricing & quantity selection  
+- Mobile-first responsive UI  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### 📦 Seamless Order Flow
+- Simple checkout
+- Address & contact capture
+- Automatic order number generation
+- Email confirmation after successful order
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 🔍 Track Your Order
+- Public **Track Order** page
+- Real-time order status timeline:
+  - Pending  
+  - Confirmed  
+  - Shipped  
+  - Delivered  
+  - Cancelled
+- Invoice download (PDF)
+- Cancel order (before shipment)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+### 🤝 Trust-Driven Design
+- “Why Choose Satverra Spice Co?” trust section
+- Farm-fresh messaging
+- No chemicals, no additives
+- Clean, transparent UI
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧑‍💼 Admin Dashboard (Powerful & Practical)
 
-## How can I deploy this project?
+### 📊 Order Management
+- View **all orders**
+- Filter by status:
+  - All
+  - Pending
+  - Confirmed
+  - Shipped
+  - Delivered
+  - Cancelled
+- Update order status with one click
+- Real-time UI feedback with loaders
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+### 👥 Customer Insights
+- View all customers
+- See:
+  - Total orders per customer
+  - Total amount spent
+  - Full order history
+- Helps identify repeat & high-value customers
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 📈 Analytics Dashboard
+- Total orders
+- Total revenue
+- Status-wise order breakdown
+- Top selling products
+- Business-ready insights
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+### 🔐 Secure Admin Authentication
+- Admin-only login
+- JWT-based authentication
+- HttpOnly cookies
+- Protected API routes
+- Logout support
+
+---
+
+## 🎨 Design Philosophy
+
+- Earthy, spice-inspired color palette  
+- Clean typography  
+- Minimal distractions  
+- Focus on **trust, clarity & conversion**  
+- Smooth loading states for better UX  
+
+Built to feel **premium yet honest**, just like the product.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js 14 (App Router)**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Shadcn/UI**
+- **Lucide Icons**
+
+### Backend
+- **Next.js API Routes**
+- **Prisma ORM**
+- **PostgreSQL**
+- **JWT Authentication**
+
+### Utilities
+- Email notifications
+- PDF invoice generation
+- Date formatting
+- Secure password hashing
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/your-username/satverra-spice/main/public/admin-dashboard.png" 
+    alt="Admin Dashboard Screenshot"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <strong>Designed for Real Business, Not Just Demos</strong>
+</p>
+
+---
+
+## 🚀 Why This Project Matters
+
+This is not a template project.
+
+It represents:
+- A **real-world D2C business**
+- Proper admin workflows
+- Clean architecture
+- Scalable structure
+- Production-ready patterns
+
+Perfect for:
+- Founders  
+- Indie hackers  
+- Portfolio showcase  
+- Real deployment  
+
+---
+
+## 🇮🇳 Made in India, For Indian Kitchens
+
+From Mirzapur farms to Indian homes,  
+**Satverra Spice Co.** celebrates purity, honesty, and tradition.
+
+---
+
+<p align="center">
+  🌿 <strong>Pure Spices. Honest Business. Modern Tech.</strong>
+</p>

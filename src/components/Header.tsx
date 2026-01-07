@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Phone, MessageCircle, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -22,8 +23,17 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-display font-bold text-primary">
-            🌿 Satverra Spice 
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/LogoNoName.png"
+              alt="Satverra Spice Logo"
+              width={40}
+              height={40}
+              className="mix-blend-multiply"
+            />
+            <span className="text-2xl font-display font-bold text-primary">
+              Satverra Spice
+            </span>
           </Link>
 
           {/* Desktop Nav */}
